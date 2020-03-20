@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Main Menu"
+        app:showAsAction = "ifRoom"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Best Seller"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Most Searched"
+        app:showAsAction="never"/>
+
+</menu>
